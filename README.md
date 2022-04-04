@@ -1,6 +1,6 @@
 # pdfgrep
 
-A [Docker](http://docker.com) file to build [pdfgrep](https://github.com/pdfgrep).
+A [Docker](http://docker.com) file to build [pdfgrep](https://pdfgrep.org/).
 
 > Be aware! You should carefully read the usage documentation of every tool!
 
