@@ -31,6 +31,45 @@ or
 ```bash
 make start PARAM=someparameter
 ```
+
+Usage: docker run --rm elswork/pdfgrep [OPTION]... PATTERN FILE...
+
+Search for PATTERN in each FILE.
+PATTERN is, by default, an extended regular expression.
+
+Commonly used options:
+
+ -i, --ignore-case              Ignore case distinctions
+
+ -P, --pcre                     Use Perl compatible regular expressions (PCRE)
+
+ -H, --with-filename            Print the file name for each match
+
+ -h, --no-filename              Suppress the prefixing of file name on output
+
+ -n, --page-number              Print page number with output lines
+
+ -c, --count                    Print only a count of matches per file
+
+ --color WHEN               Use colors for highlighting;
+                                WHEN can be `always', `never' or `auto'
+
+ -p, --page-count               Print only a count of matches per page
+
+ -m, --max-count NUM            Stop reading after NUM matching lines (per file)
+
+ -q, --quiet                    Suppress normal output
+
+ -r, --recursive                Search directories recursively
+
+ -R, --dereference-recursive    Likewise, but follow all symlinks
+
+ --cache                    Use cache for faster operation
+
+ --help                     Print this help
+
+ -V, --version                  Show version information
+
 ---
 **[Sponsor me!](https://github.com/sponsors/elswork) Together we will be unstoppable.**
 
