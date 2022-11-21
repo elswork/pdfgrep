@@ -16,7 +16,8 @@ A [Docker](http://docker.com) file to build [pdfgrep](https://pdfgrep.org/).
 
 ## Compatible Architectures
 
-This image has been builded using [buildx](https://docs.docker.com/buildx/working-with-buildx/) for these architectures: 
+This image has been builded using [buildx](https://docs.docker.com/buildx/working-with-buildx/) for these architectures:
+
 - amd64 arm64 ppc64le s390x 386 arm/v7 arm/v6
 
 ## Usage Example
@@ -27,7 +28,9 @@ This image has been builded using [buildx](https://docs.docker.com/buildx/workin
 docker run --rm elswork/pdfgrep \
  someparameter
 ```
+
 or
+
 ```bash
 make start PARAM=someparameter
 ```
@@ -52,7 +55,7 @@ Commonly used options:
  -c, --count                    Print only a count of matches per file
 
  --color WHEN               Use colors for highlighting;
-                                WHEN can be `always', `never' or `auto'
+                                WHEN can be 'always', 'never' or 'auto'
 
  -p, --page-count               Print only a count of matches per page
 
